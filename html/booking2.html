@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/18ab6b519b.js" crossorigin="anonymous"></script>
+    <style>
+        .a{
+            color:red;
+            font-size: 14pt;
+        }
+        #b{
+            color:brown;
+            font-size: 12pt;
+        }
+        .heading{
+            color:rgb(244, 248, 223);
+            font-size: 18pt;
+            text-decoration: underline;
+            text-shadow: -2px -4px 4px green;
+            font-weight: bold;
+            
+
+
+        }
+        .admin-icon{
+            color:rgb(138, 219, 249);
+            font-size: 18pt;
+            text-shadow: -2px -4px 4px rgb(46, 54, 46);
+            filter: drop-shadow(-2px -4px 4px rgb(43, 57, 43));
+            text-decoration: underline;
+            text-underline-position: under;
+
+        }
+        span{
+            padding: 20px;
+            margin:20px;
+            border: 4px solid rgb(131, 44, 131);
+            border-radius: 8px;
+            box-shadow: 2px 3px 1px rgb(43, 172, 223);
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+        span i{
+            margin-left:25px;
+        }
+        .fa-bed,
+        .fa-couch,
+        .fa-database,
+        .fa-key,
+        .fa-rotate{
+        color: rgb(239, 244, 222);
+        text-shadow: -5px -5px rgb(242, 104, 255);
+        filter: drop-shadow(2px 2px 0 rgb(12, 226, 126));
+        }
+
+        span div{
+            font-size: 15pt;
+            color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+            font-weight:bold;
+        }
+    
+
+        .first-row{
+            background-color:blueviolet;
+            color:bisque
+        }
+        .check{
+            color:green !important;
+            font-size: 12px;
+            padding-right: 5px;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="admin-icon">
+    <h1 class="heading">   <i class="fa-solid fa-key"></i>Administation</h1> </div>
+    
+    <div class="container">
+        <span>
+            Total booking <i class="fa-solid fa-bed"></i>
+            <div>12</div>
+        </span>
+        <span>
+            Available Room <i class="fa-solid fa-couch"></i>
+            <div>8</div>
+        </span>
+        <span>
+            Daily Revenue <i class="fa-solid fa-database"></i>
+            <div>$1000</div>
+        </span>
+    </div>
+    
+        <div class="heading"><i class="fa-solid fa-rotate"></i>Recent Check-Ins</div>
+
+
+        <table width="100%" rules="rows" frame="border">
+            <tr class="first-row">
+                <td><i class="fa-solid fa-user"></i>Guest Name</td>
+                <td><i class="fa-solid fa-hotel"></i>Room</td>
+                <td><i class="fa-solid fa-i"></i>Status</td>
+            </tr>
+            <tr >
+                <td>pao</td>
+                <td>110</td>
+                <td class="check"><i class="fa-solid fa-circle"></i>Check</td>
+            </tr>
+            <tr>
+                <td>heng</td>
+                <td>101</td>
+                <td class="check"><i class="fa-solid fa-circle"></i>Check</td>
+            </tr>
+            <tr>
+                <td>long</td>
+                <td>100</td>
+                <td class="check"><i class="fa-solid fa-circle"></i>check</td>
+            </tr>
+            <tr>
+                <td>tola</td>
+                <td>110</td>
+                <td  class="check"><i class="fa-solid fa-circle"></i>check</td>
+            </tr>
+
+        </table>
+    
+    
+    
+    
+
+    
+</body>
+</html>

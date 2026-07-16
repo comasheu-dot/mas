@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SX14</title>
+</head>
+<body>
+    <form>
+      <fieldset>
+        <table align="center" border="1" cellpadding="5">
+        <caption><h2>Create Booking</h2></caption>
+        <tr>
+            <td><label>Customer Name:</label></td>
+            <td><input type="text" name="txtcusname"></td>
+        </tr>
+          <tr>
+            <td><label>Tel:</label></td>
+            <td> <input type="text" name="txtcusname"></td>
+        </tr>
+          <tr>
+            <td><label>Gender:</label></td>
+            <td><input type="radio" name="txtGender" value="Female">Female
+            <input type="radio" name="txtGender" value="Male">Male</td>
+        </tr>
+           <tr>
+      <td><label>Check In Date</label></td>
+      <td><input type="date" name="dateCheckIn"></td>
+    </tr>
+    <tr>
+      <td><label>Total Day</label></td>
+      <td><input type="number" name="txtTotalDay"></td>
+    </tr>
+    <tr>
+      <td><label>Room Number</label></td>
+      <td><select name="Room" >
+        <optgroup label="Single Room">
+        <option>101</option>
+        <option>102</option>
+        <option>103</option>
+        </optgroup>
+        <optgroup label="Double Room">
+        <option>105</option>
+        <option>201</option>
+        <option>202</option>
+        </optgroup>
+        <optgroup label="Family Room">
+        <option>203</option>
+        <option>205</option>
+        </optgroup>
+        <optgroup label="VIP Room">
+        <option>206</option>
+        <option>207</option>
+        </optgroup>
+      </select></td>
+        </tr>
+           <tr>
+            <td><label>Note:</label></td>
+            <td><textarea name="txtNote" rows="5" cols="40" placeholder="You Can Type Your FeedBack Here"></textarea></td>
+        </tr>
+         <tr>
+            <td><label>Submit Here:</label></td>
+            <td>
+              <input type="submit" value="Create">
+              <input type="reset" value="Clear">
+            </td>
+        </tr>
+
+        </table>
+        </fieldset>
+    </form>
+</body>
+</html>
